@@ -58,7 +58,6 @@ namespace OpenPicture
             if (open.ShowDialog() == DialogResult.OK)
             {
                 pbPhoto.Image = new Bitmap(open.FileName);
-                pbPhoto.Image = new Bitmap(open.FileName);
                 NewPath = open.FileName.ToString();
 
                 CreateTextFile(NewPath);
